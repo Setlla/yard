@@ -1,0 +1,42 @@
+.projects {
+	text-align: center;
+}
+
+.projects-title h2:after,  {
+	border-color: #009ee3;
+}
+
+.projects-content {
+	margin-top: 50px;
+}
+
+
+.projects-content ul li {
+	width: 47%;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+.projects-content ul li:hover .img-cover {
+	bottom: 0;
+}
+
+.projects-content ul li img {
+	width: 100%;
+	display: block;
+}
+
+.img-cover {
+	background-color: rgba(54, 55, 50, 0.79);
+	width: 100%;
+	color: white;
+	text-align: left;
+	padding: 15px;
+	bottom: -170px;
+	position: absolute;
+	transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s; /* Firefox 4 */
+	-webkit-transition: all 0.4s ease 0s; /* Safari 和 Chrome */
+	-o-transition: all 0.4s ease 0s; /* Opera */
+}

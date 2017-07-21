@@ -1,0 +1,45 @@
+header {
+	background-color: rgba(0,0,0,.4) ;
+	color: white;	
+	height: 1.2rem;
+	line-height: 1.2rem;
+	font-size: .3rem;
+	padding: 0 6% ;
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	margin-top: 10px;
+}
+.menu {
+	float: right;
+	list-style-type: none;
+}
+.menu li {
+	display: inline-block;
+}
+.menu li a {
+	padding: 0 .3rem;
+}
+.btn {
+	width: 40px;
+	height: 30px;
+	border: solid white 2px;
+	border-radius: 3px;
+	float: right;
+	display: none;
+	padding: 0 8px;
+	margin-top: 15px;
+}
+.btn span{
+	width: 20px;
+	height: 2px;
+	background-color: white;
+	margin-top: 5px;
+	display: block;
+}

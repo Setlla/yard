@@ -1,0 +1,8 @@
+{
+  "name": "yard",
+  "version": "0.0.1",
+  "description":"vue.js & node.js",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
