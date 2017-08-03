@@ -3,10 +3,15 @@
 	padding-top: 0;
 }
 
+.purpose-content ul {
+	overflow: hidden;
+	width: 100%;
+}
+
 .purpose-content li {
-	display: inline-block;
-	width: 47%;
-	margin: 30px 5px 0 5px;
+	float: left;
+	width: 45%;
+	margin: 30px 5px 0px 5px;
 }
 
 .purpose-content p, i {

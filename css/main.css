@@ -12,11 +12,15 @@ ul {
 	list-style-type: none;
 }
 
-a {
+a, a:visited {
 	cursor: pointer;
+	color: white;
+	text-decoration: none;
 }
-a:hover {
+
+a:hover, a:active {
 	color: rgb(0,158,227);
+	text-decoration: none;
 }
 
 .padding {
