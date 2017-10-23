@@ -7,6 +7,7 @@
 	text-align: center;
 	color: white;
 }
+
 .slide-title {
 	font-size: .7rem;
 }
@@ -20,6 +21,11 @@
 .slide-content {
 	display: table-cell;
 	vertical-align: middle;
+	display: none;
+}
+
+.selected {
+	display: block;
 }
 
 .joinus {
