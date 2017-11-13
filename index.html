@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>七小院欢迎你</title>
+		
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		
+		<!--<link rel="stylesheet" href="dist/yard.min.css" />-->
+		<link href="../css/contact.css" />
+		<link href="../css/head.css" />
+		<link href="../css/footer.css" />
+		<link href="../css/index-mobile.css" />
+		<link href="../css/main.css" />
+		<link href="../css/project.css" />
+		<link href="../css/purpose.css" />
+		<link href="../css/shopkeeper.css" />
+		<link href="../css/slide.css" />
+		<link href="../css/contact.css" />
+		
+	</head>
+	<body>
+		<div id='body'>
+		<!-- header start -->
+			<header>
+				<div class="logo">
+					<a><img src="./img/logo.png" /></a>
+				</div>
+				<div @click="changeBtn" class="btn"><!-- btn的点击事件   -->
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<ul class="menu">
+					<li>
+						<router-link to="/">主页</router-link>
+					</li>
+					<li>
+						<router-link to="/shops">各分舵</router-link>
+					</li>
+					<li>
+						<router-link to="/projects">活动</router-link>
+					</li>
+					<li>
+						<router-link to="/#about">关于我们</router-link>
+					</li>
+					<li>
+						<router-link to="/#wait">等你来撩</router-link>
+					</li>
+				</ul>
+				<ul class="menu-mobile" v-show="isshow">
+					<li>
+						<router-link to="/">主页</router-link>
+					</li>
+					<li>
+						<router-link to="/shops">各分舵</router-link>
+					</li>
+					<li>
+						<router-link to="/projects">活动</router-link>
+					</li>
+					<li>
+						<router-link to="/#about">关于我们</router-link>
+					</li>
+					<li>
+						<router-link to="/#wait">等你来撩</router-link>
+					</li>
+				</ul>
+			</header>
+		<!-- header end -->
+			
+			<router-view class="view"></router-view>
+		
+		<!-- footer start -->
+			<footer>
+				<p>Copyright © 2017 七小院 版权所有</p>
+			</footer>
+		<!-- footer end -->
+		</div>
+	</body>
+</html>
