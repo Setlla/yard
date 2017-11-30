@@ -1,0 +1,35 @@
+.shopkeeper {
+	background: url(../img/parallax/testimonial.jpg) no-repeat;
+	text-align: center;
+	background-attachment: fixed;
+	color: white;
+}
+
+ .cover {
+ 	    background-color: rgba(15,155,224, 0.78);
+ }
+ 
+ .shopkeeper-content {
+ 	margin-top: 30px;
+ }
+ 
+  .shopkeeper-title h2:after {
+ 	border-color: white;
+ }
+ 
+ .shopkeeper-content img {
+ 	border: 3px solid #fff;
+    border-radius: 50%;
+    max-width: 100px;
+    height: auto;
+    border-radius: 50px;
+ }
+ 
+.name {
+	font-size: .4rem;
+}
+.introduce {
+	font-size: .3rem;
+	margin-top: 20px;
+	line-height: 24px;
+}
