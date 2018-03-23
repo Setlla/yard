@@ -3,7 +3,7 @@
 		<ul>
 			<li v-for="project in projects">
 				<router-link to="/projects/2">
-					<img src="../img/portfolio/item.jpg" />
+					<img src="../assets/img/portfolio/item.jpg" />
 					<div class="img-cover common-hp">
 						<h2>{{project.title}}</h2>
 						<p>{{project.content}}</p>

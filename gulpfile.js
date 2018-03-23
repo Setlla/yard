@@ -7,7 +7,7 @@
  var cssnano = require('gulp-cssnano');
  
  gulp.task('style', function(){
-     gulp.src(['css/*.css'])
+     gulp.src(['src/assets/css/*.css'])
          .pipe(concat('yard.min.css'))
          .pipe(cssnano())
          .pipe(gulp.dest('dist'));

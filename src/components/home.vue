@@ -69,7 +69,7 @@
 				<h2>各分舵 舵主</h2>
 			</div>
 			<div class="shopkeeper-content">
-				<img src="../img/author.jpg" />
+				<img src="../assets/img/author.jpg" />
 				<div>
 					<h3 class="name">大长沙舵主</h3>
 					<p class="introduce">于是，我似乎看到多年以后，你站在一扇蓝色的大门前，下午三点的阳光，你脸上仍有几颗青春痘，你笑着，我跑向你，问你好不好，你点点头。三年，五年以后，甚至更久更久以后，我们会变成什么样的大人呢？是体育老师，还是我妈，虽然我闭上眼睛，也看不见自己，但是我却可以看见你。</p>
@@ -89,11 +89,11 @@
 			</p>
 			<div class="code">
 				<span>
-					<img  src="../img/gong.png"/><br />
+					<img  src="../assets/img/gong.png"/><br />
 					公众号
 				</span>
 				<span class="code">
-					<img src="../img/wei.png" /><br />
+					<img src="../assets/img/wei.png" /><br />
 					微信群
 				</span>
 			</div>
@@ -133,22 +133,22 @@
 			return {
 				projects: [
       		{
-      			img: './img/item.jpg',
+      			img: './assets/img/item.jpg',
       			title: '湘江沿岸骑行',
       			content: '岁月极美，在于它必然的流逝。春花、秋月、夏日、冬雪。'
       		},
       		{
-      			img: './views/img/portfolio/item2.jpg',
+      			img: './assets/img/portfolio/item2.jpg',
       			title: '岳麓山看日落',
       			content: '我用什么才能留住你？我给你贫穷的街道、绝望的日落、破败郊区的月亮。我给你一个久久地望着孤月的人的悲哀。'
       		},
       		{
-      			img: './views/img/portfolio/item3.jpg',
+      			img: './assets/img/portfolio/item3.jpg',
       			title: '黑麋峰看萤火虫',
       			content: '随着时光流逝，我慢慢地明白了，只有存在的东西才会消失，不管是城市，爱情，还是父母。'
       		},
       		{
-      			img: './views/img/portfolio/item4.jpg',
+      			img: './assets/img/portfolio/item4.jpg',
       			title: '靖港古镇吃鱼仔',
       			content: '童年的一天一天，温暖而迟缓，正像老棉鞋里面，粉红绒里子上晒着的阳光。'
       		}
